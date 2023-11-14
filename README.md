@@ -18,7 +18,7 @@ These types of resources are supported:
 
 ```hcl
 module "bucket" {
-  source = "github.com/chgasparoto/terraform-s3-object-notification"
+  source = "github.com/chgasparoto/terraform-aws-s3-object"
 
   name   = "my-super-unique-bucket-name"
   acl    = "public-read"
